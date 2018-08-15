@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSpeech_downloader", "iSpeech_downloader\iSpeech_downloader.csproj", "{554841D0-85B9-4007-876E-F5D949E51929}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{554841D0-85B9-4007-876E-F5D949E51929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554841D0-85B9-4007-876E-F5D949E51929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554841D0-85B9-4007-876E-F5D949E51929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554841D0-85B9-4007-876E-F5D949E51929}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33ACE5CD-62A4-4A84-AA10-79780A3B2323}
+	EndGlobalSection
+EndGlobal
