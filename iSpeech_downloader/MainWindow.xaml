@@ -99,7 +99,7 @@
                     <RowDefinition Height="0.3*"></RowDefinition>
 
                 </Grid.RowDefinitions>
-                <TextBox Name="TextBox" MaxLength="150" Foreground="#666666" BorderThickness="0" TextWrapping ="Wrap" FontSize="18" Margin="20,20,20,10" BorderBrush="{x:Null}" Background="{x:Null}" Text="Fact: Employees who are auditory learners, train faster and more effectively, by listening to iSpeech text to speech, inside of e-learning courses."></TextBox>
+                <TextBox HorizontalScrollBarVisibility="Auto" Name="TextBox" Foreground="#666666" BorderThickness="0" TextWrapping ="Wrap" FontSize="18" Margin="20,20,20,10" BorderBrush="{x:Null}" Background="{x:Null}" Text="Fact: Employees who are auditory learners, train faster and more effectively, by listening to iSpeech text to speech, inside of e-learning courses."></TextBox>
                 <Border Panel.ZIndex="1" CornerRadius="0,0,10,10"  Margin="-1,-1,-1,-3" Grid.Row="1" Background="#155797">
                     <Button Style="{StaticResource Transparent}" Click="ButtonBase_OnClick">
                         <TextBlock HorizontalAlignment="Center"

@@ -196,8 +196,10 @@ namespace iSpeech_downloader
             public static string Parse(Voice voice, bool male, string text)
             {
                 var f = male ? "male" : "female";
-                return
-                    $"https://www.ispeech.org/p/generic/getaudio?action=convert&pitch=100&voice={voice.Name + f}&speed={MainWindow.speed}&text={text}&bust=1534380753575";
+
+                  var a =  $"http://cache.ispeech.org/api/rest/?apikey=e3a4477c01b482ea5acc6ed03b1f419f&action=convert&format=mp3&voice={voice.Name + f}&speed={MainWindow.speed}&text={text}&version=0.2.99";
+                return a;
+
             }
         }
 
