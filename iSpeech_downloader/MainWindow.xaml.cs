@@ -117,11 +117,12 @@ namespace iSpeech_downloader
 
             if (listboxFolder1.SelectedItems.Count > 0)
             {
-                var selected = (Voice) listboxFolder1.SelectedItems[0];
+           
 
                 var b = new Task(() =>
                 {
-                    using (var mf = new MediaFoundationReader(Downloader.Parse(selected, isMale, TextBox.Text)))
+                    var selected = Dispatcher.Invoke(()=>(Voice)listboxFolder1.SelectedItems[0]);
+                    using (var mf = new MediaFoundationReader(Downloader.Parse(selected, isMale, Dispatcher.Invoke(() => TextBox.Text))))
                     using (var wo = new WaveOutEvent())
                     {
 
